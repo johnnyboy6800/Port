@@ -4,6 +4,9 @@ import Especialidades from "./Especialidades/page";
 import Mynavbar from "./navbar/nav-bar";
 import Projetos from "./Projetos/page";
 import Contact from "./Contact-me/page";
+import {Metadata} from 'next';
+
+
 
 
 export default function Home() {
@@ -12,6 +15,11 @@ export default function Home() {
   const projetosRef = useRef(null)
   const especialidadesRef = useRef(null)
   const contactRef = useRef(null)
+
+  export const metadata: Metadata = {
+    title: "Portfolio"
+  };
+  
   
     return (
         <div className="min-h-screen bg-white dark:bg-black">
