@@ -1,9 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  images: { unoptimized: true }, // necessário se usar <Image />
-  basePath: '/Portfolio_static', // importante
-  trailingSlash: true
+  images: { unoptimized: true },
+  basePath: '/Portfolio_static',
+  assetPrefix: '/Portfolio_static',
+  trailingSlash: true,
 }
 
-module.exports = nextConfig
+module.exports = nextConfig;
+

@@ -41,7 +41,7 @@ export default function Home() {
         className="rounded-full w-64 h-64 object-cover 
             border-4 border-white shadow-xl 
             hover:scale-105 transition-transform"
-        src="/WhatsApp%20Image%202024-11-15%20at%2018.59.28.jpeg"
+        src="WhatsApp%20Image%202024-11-15%20at%2018.59.28.jpeg"
         alt="João Lucas Profile"
       />
     </div>
