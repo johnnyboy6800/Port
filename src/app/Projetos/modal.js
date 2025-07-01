@@ -2,7 +2,7 @@ export default function Modal({titulo, descricao, tecnologias, funcionalidades, 
     return (
          <div className=" fixed inset-0 z-[9999] lg:w-200 flex items-center justify-center">
         
-          <div className="bg-gray-900 border-2 border-blue-500 rounded-xl max-w-4xl mx-auto -6 w-full overflow-hidden shadow-2xl">
+          <div className="overflow-y-auto max-h-screen max-w-screen bg-gray-900 border-2 border-blue-500 rounded-xl mx-auto -6 w-full overflow-hidden shadow-2xl">
             {/* Cabeçalho do Modal */}
             <div className="bg-gradient-to-r from-blue-900 to-black p-4 border-b border-blue-500">
                 <h2 className="text-2xl font-bold text-white">{titulo}</h2>
