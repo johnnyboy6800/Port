@@ -16,14 +16,14 @@ export default function Home() {
   const contactRef = useRef(null)
 
     return (
-        <div className="min-h-screen bg-black">
+        <div className="min-h-screen bg-black bg-[url('/Port/25336.jpg')] ">
       <Mynavbar onContactClick={() => contactRef.current?.scrollIntoView({behavior: 'smooth'})} onHomeClick={() => introRef.current?.scrollIntoView({ behavior: 'smooth'})} onProjetosClick={() => projetosRef.current?.scrollIntoView({ behavior: 'smooth' })} onEspecialidadesClick={() => especialidadesRef.current?.scrollIntoView({ behavior: 'smooth'})} />  
-            <div ref={introRef} className="flex flex-col md:flex-row items-center justify-between px-4 md:px-20 pt-20 py-10 gap-8">
+            <div ref={introRef} className=" flex flex-col md:flex-row items-center justify-between px-4 md:px-20 pt-20 py-10 gap-8">
 
             <div className="text-center md:text-left max-w-2xl ">
             <h1 className="font-bold text-4xl  text-gray-100">João Lucas</h1>
             <div className="flex">
-            <h1 className="font-bold text-4xl text-blue-500">Software </h1> <h1 className="ml-4 font-bold text-4xl text-gray-100">Enginner</h1>
+            <h1 className="font-bold text-4xl text-green-500">Software </h1> <h1 className="ml-4 font-bold text-4xl text-gray-100">Enginner</h1>
             </div>
             <p className="pt-15 text-lg font-light font-mono text-gray-300">
             Olá! Meu nome é João Lucas, tenho 21 anos e sou um apaixonado por tecnologia e soluções inovadoras. 

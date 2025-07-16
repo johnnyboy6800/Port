@@ -45,7 +45,7 @@ export default function Especialidades() {
   ];
 
   return (
-    <section className=" py-16 px-4 md:px-20 bg-blue-200 rounded-lg m-4 mx-4 my-4 ">
+    <section className=" py-16 px-4 md:px-20 bg-green-200 rounded-lg m-4 mx-4 my-4 ">
       <h2 className="text-4xl font-bold text-center mb-12 text-black">
         Minhas Especialidades
       </h2>
@@ -54,7 +54,7 @@ export default function Especialidades() {
         {especialidades.map((item, index) => (
           <div
             key={index}
-            className="bg-blue-500 rounded-2xl shadow-md p-6 hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
+            className="bg-green-500 rounded-2xl shadow-md p-6 hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
           >
             <div className={`text-5xl mb-4 text-center ${item.cor}`}>
               {item.emoji}

@@ -11,7 +11,7 @@ export default function Projetos() {
         <div >
             <div className=" min-h-screen px-4 md:px-20 py-10">
                <h2 className="pt-5 text-3xl sm:text-4xl font-semibold text-white text-center mb-6">
-                Soluções <span className="text-blue-500">práticas</span> desenvolvidas com <span className="text-blue-500">tecnologias modernas</span>
+                Soluções <span className="text-green-500">práticas</span> desenvolvidas com <span className="text-green-500">tecnologias modernas</span>
                 </h2>
                 <div className="flex flex-col p-3 lg:flex-row lg:pr-5 pb-5 ">
                 <div className="relative transition pb-5 pr-5 delay-100 duration-300 ease-in-out hover:translate-y-1 hover:scale-110 ">
@@ -24,6 +24,8 @@ export default function Projetos() {
                     "JavaScript",
                     "MySQL"
                 ]}
+                img = {[
+                    "projectprev.png",]}
                 funcionalidades={[
                     "Cadastro de novos usuários com validação de dados",
                     "Login com verificação de credenciais no banco de dados",
@@ -59,7 +61,7 @@ export default function Projetos() {
                         ],
                         link:"https://github.com/johnnyboy6800/login-e-cadastramento-de-usuario-react-nodejs"
                       }), setViewOpen(true);}}
-                      className=" mt-4 bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-all duration-300 transform hover:scale-105"
+                      className=" mt-4 bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-4 rounded-lg transition-all duration-300 transform hover:scale-105"
                     >
                       Expandir
                     </button>
@@ -99,7 +101,7 @@ export default function Projetos() {
                 ],
                 link:"https://github.com/johnnyboy6800/BlogWebsite-java-spring-API-crud-"
                       }), setViewOpen(true);}}
-                      className=" mt-4 bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-all duration-300 transform hover:scale-105"
+                      className=" mt-4 bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-4 rounded-lg transition-all duration-300 transform hover:scale-105"
                     >
                       Expandir
                     </button>
