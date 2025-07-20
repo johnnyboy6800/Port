@@ -45,7 +45,7 @@ export default function Especialidades() {
   ];
 
   return (
-    <section className=" py-16 px-4 md:px-20  rounded-lg m-4 mx-4 my-4 bg-gray-700 shadow-lg">  
+    <section className=" py-16 px-4 md:px-20  rounded-lg m-4 mx-15 my-15 bg-neutral-900 shadow-lg">  
       <h2 className="text-4xl font-bold text-center mb-12 text-gray-100 ">
         Minhas <span className="text-green-500">Especialidades</span>
         <span className="text-green-500"> e Tecnologias</span>

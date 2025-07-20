@@ -6,7 +6,7 @@ import { FaGithub } from 'react-icons/fa';
 
 export default function Contact() {
     return (
-        <div className="bg-neutral-900 md:flex-row items-center justify-between px-4 md:px-20 py-10 gap-8">
+        <div className="bg-neutral-900 md:flex-row items-center mt-15 justify-between px-4 md:px-20 py-10 gap-8">
             <h1 className="text-3xl font-bold font-sans text-gray-100 ">Vamos <span className="text-green-500">Conversar</span></h1>
             <a
             href="https://wa.me/5583988577262"
