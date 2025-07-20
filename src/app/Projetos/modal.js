@@ -1,6 +1,6 @@
 export default function Modal({titulo, descricao, tecnologias, funcionalidades, setViewOpen, link, img}) {
     return (
-         <div className=" fixed inset-0 z-[9999] lg:w-200 flex items-center justify-center">
+         <div className=" fixed inset-0 z-[9999] lg:w-200 flex items-center justify-center bg-gray-700">
         
           <div className="overflow-y-auto max-h-screen max-w-screen bg-gray-900 border-2 border-green-500 rounded-xl mx-auto -6 w-full overflow-hidden shadow-2xl">
             {/* Cabeçalho do Modal */}

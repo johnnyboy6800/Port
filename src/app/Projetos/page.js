@@ -9,7 +9,7 @@ export default function Projetos() {
     const [modalcontent, setmodalcontent] = useState(false)
     return (
         <div >
-            <div className=" min-h-screen px-4 md:px-20 py-10">
+            <div className=" min-h-screen px-4 md:px-20 py-10 ">
                <h2 className="pt-5 text-3xl sm:text-4xl font-semibold text-white text-center mb-6">
                 Soluções <span className="text-green-500">práticas</span> desenvolvidas com <span className="text-green-500">tecnologias modernas</span>
                 </h2>
