@@ -7,12 +7,12 @@ import { FaGithub } from 'react-icons/fa';
 export default function Contact() {
     return (
         <div className="bg-neutral-900 md:flex-row items-center mt-15 justify-between px-4 md:px-20 py-10 gap-8">
-            <h1 className="text-3xl font-bold font-sans text-gray-100 ">Vamos <span className="text-green-500">Conversar</span></h1>
+            <h1 className="text-3xl font-bold font-sans text-gray-100 ">Vamos <span className="text-purple-500">Conversar</span></h1>
             <a
             href="https://wa.me/5583988577262"
             target="_blank"
             rel="noopener noreferrer"
-            className="pt-5 pb-5 flex items-center gap-2 text-green-500 hover:text-green-600 transition"
+            className="pt-5 pb-5 flex items-center gap-2 text-purple-500 hover:text-purple-600 transition"
             >
             <FaWhatsapp size={24} />
             Fale comigo no WhatsApp
@@ -21,7 +21,7 @@ export default function Contact() {
             href="https://www.linkedin.com/in/joão-lucas-434313199"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 text-green-500 hover:text-green-600 transition"
+            className="flex items-center gap-2 text-purple-500 hover:text-purple-600 transition"
             >
             <FaLinkedin size={24} />
             Meu LinkedIn
