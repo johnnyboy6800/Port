@@ -42,17 +42,10 @@ export default function Home() {
                 <h1 className="text-4xl sm:text-5xl font-bold text-purple-200">Software </h1>
                 <h1 className="ml-2 sm:ml-4 text-4xl sm:text-5xl font-bold text-gray-100">Engineer</h1>
               </div>
-              <p className="mt-6 text-lg font-light font-mono text-gray-200">
-                Olá! Meu nome é João Lucas, tenho 21 anos e sou um apaixonado por tecnologia e soluções inovadoras. 
-                Atualmente, estou cursando Engenharia de Software (4º período) e mergulhando cada vez mais no universo 
-                da programação, desenvolvimento de software e arquitetura de sistemas.
-              </p>
-              <p className="mt-4 text-lg font-light font-mono text-gray-200">
-                Além da graduação, estou sempre buscando desafios que me permitam expandir meus conhecimentos—seja 
-                através de projetos pessoais. Acredito que a tecnologia tem o poder de transformar ideias em realidade, 
-                e é isso que me motiva a criar soluções eficientes e impactantes.
-              </p>
+
               <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-6">
+                 <a className='text-gray-100 pt-15 text-2xl absolute hover:text-purple-200' href='/Port/documents/curriculo1-1.pdf' download={'curriculoJoão.pdf'}>Baixar cv</a>
+
                 {tecnologias.map((tecnologia, index) => (
                   <div key={index} className="text-purple-200">
                     {tecnologia.icone}
@@ -60,6 +53,7 @@ export default function Home() {
                 ))}
               </div>
             </div>
+
             <div className="w-full max-w-[280px] mx-auto md:mx-0 text-center md:text-left">
               <div className="relative w-full aspect-square rounded-full overflow-hidden border-4 border-purple-300/30 shadow-xl hover:shadow-purple-300/30 transition-all duration-300">
                 <img
