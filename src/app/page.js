@@ -95,28 +95,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <div className="bg-black/10 backdrop-blur-lg rounded-xl p-4 sm:p-6 lg:p-8 shadow-xl border border-purple-300/20 hover:shadow-purple-300/30 transition-all duration-300">
-          <h2 className="text-3xl sm:text-4xl font-bold text-center text-gray-100 mb-6">Um pouco sobre mim</h2>
-          <div className="text-center md:text-left">
-            <h3 className="text-2xl font-semibold text-gray-100 mb-4">Objetivos</h3>
-            <p className="text-lg font-light font-mono text-gray-200">
-              Possuo como objetivo atual ingressar no mercado de trabalho e me desenvolver o suficiente 
-              para me tornar um bom programador.
-            </p>
-            <h3 className="text-2xl font-semibold text-gray-100 mb-4 mt-6">🎮 Hobbies</h3>
-            <p className="text-lg font-light font-mono text-gray-200">
-              📚 <span className="font-medium">Ler</span><br />
-              Livros de ficção, tecnologia e filosofia.<br /><br />
-              🎬 <span className="font-medium">Assistir filmes</span><br />
-              Desde clássicos do cinema até blockbusters.<br /><br />
-              🕹️ <span className="font-medium">Jogar videogame</span><br />
-              Principalmente jogos de estratégia e narrativos.<br /><br />
-              <span className="italic">&quot;Esses hobbies me ajudam a pensar de forma criativa e a resolver problemas de maneiras diferentes.&quot;</span>
-            </p>
-          </div>
-        </div>
-      </section>
+     
       <section ref={especialidadesRef}>
         <Especialidades />
       </section>

@@ -49,7 +49,7 @@ export default function Projetos() {
               'Criação e gerenciamento de blogs com título, texto e data',
               'Visualização via front-end com Thymeleaf'
             ]}
-            link="https://github.com/johnnyboy6800/BlogWebsite-java spring-API-crud-"
+            link="https://github.com/johnnyboy6800/BlogWebsite-java-spring-API-crud-"
           />
         </div>
       </div>
