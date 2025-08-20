@@ -44,7 +44,7 @@ export default function Home() {
               </div>
 
               <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-6">
-                 <a className='text-gray-100 pt-15 text-2xl absolute hover:text-purple-200' href='/Port/documents/curriculo1-1.pdf' download={'curriculoJoão.pdf'}>Baixar cv</a>
+                 <a className='text-gray-100 pt-15 text-2xl absolute hover:text-purple-200' href='documents/curriculo.pdf' download={'curriculoJoão.pdf'}>Baixar cv</a>
 
                 {tecnologias.map((tecnologia, index) => (
                   <div key={index} className="text-purple-200">
