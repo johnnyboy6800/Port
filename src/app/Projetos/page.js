@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
 import Projeto from './projeto';
-import { FaJava, FaLeaf, FaDatabase, FaFileCode, FaReact, FaNodeJs, FaJsSquare } from 'react-icons/fa';
+import { FaJava, FaLeaf, FaDatabase, FaFileCode, FaReact, FaNodeJs, FaJsSquare, FaPhp, FaLaravel } from 'react-icons/fa';
 
 export default function Projetos() {
   return (
@@ -37,7 +37,7 @@ export default function Projetos() {
           <Projeto
             id="java-project"
             img={['javaapi.png']}
-            titulo="🔧 API CRUD - Sistema de Gerenciamento"
+            titulo="🔧 API CRUD - Sistema de Gerenciamento de blogs"
             descricao="API completa com interface web para operações CRUD de blogs, usando Java moderno, Spring Boot e PostgreSQL."
             tecnologias={[
               { icone: <FaJava className="text-2xl text-purple-200 hover:text-purple-300 transition-colors duration-300" /> },
@@ -50,6 +50,24 @@ export default function Projetos() {
               'Visualização via front-end com Thymeleaf'
             ]}
             link="https://github.com/johnnyboy6800/BlogWebsite-java-spring-API-crud-"
+          />
+        </div>
+        <div>
+          <Projeto
+          id = "Laravel-project"
+          titulo="API CRUD - Sistema de gerenciamento de blogs e usuários"
+          tecnologias={[
+            {icone : <FaPhp className="text-2xl text-purple-200 hover:text-purple-300 transition-colors duration-300"/>},
+            {icone: <FaLaravel className="text-2xl text-purple-200 hover:text-purple-300 transition-colors duration-300"/>},
+            { icone: <FaDatabase className="text-2xl text-gray-200 hover:text-gray-100 transition-colors duration-300" /> }
+
+          ]}
+          descricao="API CRUD escrita em php utilizando o framework laravel e o banco de dados postgresql."
+          funcionalidades={[
+            "Criação, remoção e atualização de posts",
+            "Cadastro, login e gerenciamento de usuários e seus respectivos posts"
+          ]}
+          link="https://github.com/johnnyboy6800/laravel-blog-api"
           />
         </div>
       </div>

@@ -31,29 +31,33 @@ export default function Home() {
         onProjetosClick={() => projetosRef.current?.scrollIntoView({ behavior: 'smooth' })}
         onEspecialidadesClick={() => especialidadesRef.current?.scrollIntoView({ behavior: 'smooth' })}
       />
-      <section ref={introRef} className="py-16 px-4 sm:px-6 lg:px-8">
+      <section ref={introRef} className="py-16 px-4 sm:px-6 lg:px-8 h-auto">
         <div className="max-w-7xl mx-auto bg-black/10 backdrop-blur-lg rounded-xl p-4 sm:p-6 lg:p-8 shadow-xl border border-purple-300/20 hover:shadow-purple-300/30 transition-all duration-300">
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 sm:gap-8">
             <div className="text-center md:text-left max-w-xl w-full">
               <h1 className="text-4xl sm:text-5xl font-bold text-gray-100">
                 João Lucas
               </h1>
+
               <div className="flex justify-center md:justify-start text-center mt-2">
                 <h1 className="text-4xl sm:text-5xl font-bold text-purple-200">Software </h1>
                 <h1 className="ml-2 sm:ml-4 text-4xl sm:text-5xl font-bold text-gray-100">Engineer</h1>
               </div>
+              <a className='text-gray-100 pt-15 text-2xl relative hover:text-purple-200' href='documents/curriculo.pdf' download={'curriculoJoão.pdf'}>Baixar currículo</a>
 
               <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-6">
-                 <a className='text-gray-100 pt-15 text-2xl absolute hover:text-purple-200' href='documents/curriculo.pdf' download={'curriculoJoão.pdf'}>Baixar cv</a>
 
                 {tecnologias.map((tecnologia, index) => (
                   <div key={index} className="text-purple-200">
                     {tecnologia.icone}
+                  
                   </div>
+                  
                 ))}
               </div>
+              
             </div>
-
+                
             <div className="w-full max-w-[280px] mx-auto md:mx-0 text-center md:text-left">
               <div className="relative w-full aspect-square rounded-full overflow-hidden border-4 border-purple-300/30 shadow-xl hover:shadow-purple-300/30 transition-all duration-300">
                 <img
@@ -62,6 +66,7 @@ export default function Home() {
                   alt="João Lucas Profile"
                 />
               </div>
+              
               <div className="mt-4 space-y-3 w-full max-w-[200px] mx-auto md:max-w-none">
                 <a
                   href="https://wa.me/5583988577262"
@@ -90,6 +95,7 @@ export default function Home() {
                   <FaGithub size={20} />
                   Meu GitHub
                 </a>
+                
               </div>
             </div>
           </div>
